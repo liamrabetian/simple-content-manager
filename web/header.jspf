@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Rahkar</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>  
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> 
+        <script src="assets/datepicker.js"></script>  
+        <link href="assets/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script> 
+        <style>
+            div.position{
+                position: absolute;
+                top: 350px;
+                right: 10px;
+                width: 800px;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">Rahkar Co.</a>
+
+               <!-- Dropdown -->
+                 <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Search
+                 </a>
+                 <div class="dropdown-menu">
+                    <a class="dropdown-item" href="searchPage.jsp">Search by Content</a>
+                    <a class="dropdown-item" href="dateSearchPage.jsp">Search by Date</a>
+                 </div>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Message
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="index.jsp">Insert</a>
+                    <a class="dropdown-item" href="list.jsp">List</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <br>
+
+
+
